@@ -1,0 +1,26 @@
+h3{
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+canvas{
+    border: dotted;
+    animation-name: My_animation;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+.btn-primary:hover{
+background-color: hotpink ;
+}
+
+@keyframes My_animation{
+    from{
+        box-shadow: 5px 5px 30px lightseagreen;
+    }
+
+    to{
+        box-shadow: 5px 5px 20px darkkhaki;
+    }
+}
